@@ -3,7 +3,7 @@
 ## ÍNDICE
 
 * [1. Intro](https://github.com/CathColin/clondegoogle/blob/main/README.md#1intro)
-* [2. Qué construi](https://github.com/CathColin/clondegoogle/blob/main/README.md#2-qu%C3%A9-constru%C3%AD)
+* [2. Qué construí](https://github.com/CathColin/clondegoogle/blob/main/README.md#2-qu%C3%A9-constru%C3%AD)
 * [3. Objetivo del proyecto](https://github.com/CathColin/clondegoogle/blob/main/README.md#3-objetivo-del-proyecto)
 
 ****
