@@ -1,0 +1,30 @@
+/*Asi se pone un comentario en CSS*/
+/*Colores de fuente y de texto */
+
+body{
+    background-color:#d5ffef;
+    color:#ff8642;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,p{
+color:#639bff
+}
+
+h3{
+    font-size: 20px;
+}
+
+img{
+    width: 550px;
+    height: 350px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: #ff0fa8;
+    padding: 5px;
+    margin:10px;
+}
+
+a{
+    color:antiquewhite;
+}

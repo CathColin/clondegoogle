@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es"> <!--lenguaje de nuestro sitio web, en este caso español "es"--> 
+    <head>
+        <meta charset="UTF-8"> <!--Este comando es para que contemple los acentos en el texto a mostrar--> 
+    <title>
+    Página de Perritos
+    </title>
+
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+
+    <header>
+        <h1>
+            Página de Perritos
+        </h1>
+
+    </header>
+
+    <body>
+    <h3> Imágenes de Perritos</h3>
+        <!--Agregar imagen desde internet. copiando la dirección de la imagen que deseamos mostrar de la web--> 
+        <img src="https://img.freepik.com/foto-gratis/lindo-perrito-haciendose-pasar-persona-negocios_23-2148985938.jpg">
+
+        <!--Agregar imagen desde la compu--> 
+        <img src="imagenes/gen.jpg">
+
+        <!--Hacer una lista--> 
+        <h3>
+            Lista de Perritos
+        </h3>
+
+        <p>Cosas que los perros <strong>aman</strong></p> <!--Paragraph-->
+
+        <!--Hacer una lista ordenada, que llevan números-->
+
+        <ol> <!--Ordered List ol-->
+           <li>Pastito</li> <!--list item, elemento de la lista-->
+           <li>Jugar</li>
+           <li>Pelota</li>
+
+        </ol>
+        
+        <!--Hacer una lista NO Ordenada-->
+
+        <p>Cosas que los Perritos <i>odian</i></p>
+
+        <ul> <!--Unordered List ul-->
+            <li>Quedarse afuera de la casa</li>
+            <li>Bañarse</li>
+            <li>Ropa acalorada</li>
+
+        </ul>
+
+        <!--Enalces externos con _blank, para que nos direccione a otro link sin cerrar nuestra pag.-->
+
+        <p>Si quieres ver videos de Perritos <a href="https://youtu.be/47B34hKJNN8" target="_blank">da click aquí</a></p>
+
+        <!--Crear un formulario de acceso a una página-->
+        
+        <!--Formulario con botones de radio y una opción seleccionada con checked y tipo radio donde solo puedes elegir una opcion-->
+
+        <h3>Formularios</h3>
+
+        <p>¿Tu perrito es adulto o cachorro?</p>
+
+        <label>
+            <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked> Cachorro
+        </label>
+        
+        <!--<br> para salto de línea-->
+
+        <br>
+        <label>
+            <input id="adulto" type="radio" value="adulto" name="cachorro-adulto"> Adulto
+        </label>
+
+        <!--Formulario con casillas de verificación, con ckecbox donde puedes elegir mas de una opcion-->
+        <p>¿Qué tipo de Perrito es el tuyo?</p>
+        <label>
+            <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked> Cariñoso 
+        </label>
+        <br>
+        <label>
+            <input id="peresozo" type="checkbox" value="perezoso" name="personalidad"> Perezoso 
+        </label>
+        <br>
+        <label>
+            <input id="energico" type="checkbox" value="energico" name="personalidad"> Enérgico
+        </label>
+
+
+
+    </body>
+
+    <footer>
+        <p>
+            Esta página fue creada durante el bottcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a>
+        </p>
+    </footer>
+
+
+</html>
